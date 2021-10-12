@@ -1,0 +1,103 @@
+/* Set parameters for the entire header section */
+header {
+    font-family: var(--domine);
+    padding: 2%;
+    align-items: center;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+/* Set parameterss for the name and Nav section of the header */
+.top-section {
+    background-color: var(--back-color);
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 3px 2px 2px var(--back-color);
+}
+
+/* Name parameters */
+header h1 {
+    background-color: var(--light-back);
+    color: var(--text-dark);
+    font-size: 200%;
+    margin: 5px 5px 5px 0px;
+    float: left;
+}
+
+/* Nav parameters */
+.links {
+    margin-right: 10px;
+}
+
+/* Additional Nav parameters for unordered list and li elements */
+.links ul, .links li {
+    display: inline;
+    font-size: 125%;
+    margin-right: 10px;
+}
+
+/* Set link behavior */
+.links a:link {
+    color: var(--light-back);
+}
+.links a:visited {
+    color: var(--light-back);
+}
+.links a:hover {
+    color: white;
+}
+.links a:focus {
+    color:green;
+}
+.links a:active {
+    color:red;
+}
+
+  /* Set background image section parameters */
+  .background {
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: 3px 2px 2px var(--back-color);
+}
+
+/* Set background image parameters */
+.back-pic {
+    height: 115px;
+    width: 100%;
+    background-image: url("../images/mountain.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -20px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+/* Set mug-shot image parameters */
+header img {
+    height:100px;
+    width:80px;
+    position: absolute;
+    left: 60px;
+    bottom: 2px;
+    top: 5px;
+    border:2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 5px 1px var(--back-color);
+}
+
+/* Set welcome message */
+header h2 {
+    background-color: var(--light-back);
+    color: var(--text-dark);
+    font-size: 150%;
+    font-family: 'Indie Flower', 'cursive';
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
