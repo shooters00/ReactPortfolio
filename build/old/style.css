@@ -1,0 +1,372 @@
+/* Set project variables */
+:root {
+    --text-color: lightsteelblue;
+    --back-color: navy;
+    --light-back: lightsteelblue;
+    --text-dark: navy;
+    --domine: font-family: 'Domine', serif;
+}
+
+/* Set parameters for entire css */
+* {
+
+}
+
+/* Set scroll behavior for clicked links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Set defaults for the body */
+body {
+    font-size: 16;
+    display:flex;
+    box-sizing: border-box;
+    flex-direction:column;
+    background-color: white;
+}
+
+/* Set parameters for the entire header section */
+header {
+    font-family: var(--domine);
+    padding: 2%;
+    align-items: center;
+    width:100%;
+    margin-bottom: 10px;
+}
+
+/* Set parameterss for the name and Nav section of the header */
+.top-section {
+    background-color: var(--back-color);
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    box-shadow: 3px 2px 2px var(--back-color);
+}
+
+/* Name parameters */
+header h1 {
+    background-color: var(--light-back);
+    color: var(--text-dark);
+    font-size: 200%;
+    margin: 5px 5px 5px 0px;
+    float: left;
+}
+
+/* Nav parameters */
+.links {
+    margin-right: 10px;
+}
+
+/* Additional Nav parameters for unordered list and li elements */
+.links ul, .links li {
+    display: inline;
+    font-size: 125%;
+    margin-right: 10px;
+}
+
+/* Set link behavior */
+.links a:link {
+    color: var(--light-back);
+}
+.links a:visited {
+    color: var(--light-back);
+}
+.links a:hover {
+    color: white;
+}
+.links a:focus {
+    color:green;
+}
+.links a:active {
+    color:red;
+}
+
+  /* Set background image section parameters */
+.background {
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: 3px 2px 2px var(--back-color);
+}
+
+/* Set background image parameters */
+.back-pic {
+    height: 115px;
+    width: 100%;
+    background-image: url("../images/mountain.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -20px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+
+/* Set mug-shot image parameters */
+header img {
+    height:100px;
+    width:80px;
+    position: absolute;
+    left: 60px;
+    bottom: 2px;
+    top: 5px;
+    border:2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 5px 1px var(--back-color);
+}
+
+/* Set welcome message */
+header h2 {
+    background-color: var(--light-back);
+    color: var(--text-dark);
+    font-size: 150%;
+    font-family: 'Indie Flower', 'cursive';
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+
+/* Set defaults for main */
+main {
+    line-height: 2;
+}
+
+/* About Me section */
+.info-about {
+    display:flex;
+    margin: 15px 0px;
+}
+
+/* About Me header */
+.info-about h2,
+.info-work h2,
+.info-contact h2 {
+    font-size: 200%;
+    box-shadow: 5px 0px 3px -3px var(--back-color);
+    height:auto;
+    margin: 0px 20px 0px 20px;
+    width: 150px;
+    padding-right: 10px;
+    min-width: 150px;
+    text-align: right;
+}
+
+/* About Me text */
+.info-about p {
+    font-size: 110%;
+    margin: 30px;
+    font-weight: bold;
+    color: var(--text-dark);
+    font-family: var(--domine);
+    text-align: justify;
+}
+
+.this-other-column {
+    max-width: 1%;
+    flex: 1 0 1%;
+}
+
+/* Work section */
+.info-work {
+    display:flex;
+    margin: 15px 0px;
+}
+
+/* Work section - Set behavior of cards */
+.all-cards {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Work section - Set behavior of individual cards */
+.card {
+    max-width: 48%;
+    flex: 1 0 48%;
+    position: relative;
+    margin-bottom: 10px;
+    height: auto;
+    border: 4px solid var(--light-back);
+}
+
+/* Set card hover behavior */
+.card:hover {
+    border: 2px solid blue;
+    box-shadow: 2px 2px 2px purple;
+    opacity: 75%;
+}
+
+/* Work section - Set behavior of special card that takes us more space */
+#special-card {
+    max-width: 96%;
+    flex: 1 0 96%;
+}
+
+/* Work section - Set behavior of images */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Work section - Set behavior of card header */
+.card-header {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    border: 2px solid var(--light-back);
+    padding: 5px;
+    background-color: var(--light-back);
+    font-family: var(--domine);
+    font-size: 125%
+}
+
+.card-header:hover {
+    border: 2px solid blue;
+    box-shadow: 2px 2px 2px blueviolet;
+}
+
+.my-other-column {
+    max-width: 4%;
+    flex: 1 0 4%;
+}
+
+/* Contact info section */
+.info-contact {
+    display:flex;
+    margin: 15px 0px;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Contact info links section */
+.info-contact ul {
+    text-align: center;
+}
+
+/* Contact info links section */
+.info-contact ul, .info-contact li {
+    display: inline;
+    font-size: 105%;
+}
+
+/* Contact info links */
+.info-contact a {
+    padding: 20px;
+    max-width:100%
+}
+
+/* Contact info link bevaior for unvisited, visited, hovered, focused, active links*/
+.info-contact a:link {
+    color: var(--text-dark);
+    font-weight: bold;
+    font-family: var(--domine);
+}
+.info-contact a:visited {
+    color: var(--text-dark);
+    font-weight: bold;
+    font-family: var(--domine);
+}
+.info-contact a:hover {
+    color: purple;
+}
+.info-contact a:focus {
+    color:green;
+}
+.info-contact a:active {
+    color:red;
+}
+
+/* Column to help center text in right section only */
+.another-column {
+    height:100px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+/* Footer section */
+footer {
+    display:flex;
+    margin: 15px 0px;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Footer header */
+footer h2 {
+    height:100px;
+    margin: 0px 20px 0px 20px;
+    width: 150px;
+    padding-right: 10px;
+    min-width:150px;
+    text-align: right;
+}
+
+/* Footer text */
+footer p {
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-top: 30px;
+    font-size: 200%;
+}
+
+/* Behaviior at 992px or smaller */
+@media screen and (max-width: 992px) {
+    /* Shrink projects to 1 per line */
+    .card {
+        max-width: 96%;
+        flex: 1 0 96%;
+    }
+    /* Change contact block to show on multiple lines */
+    .info-contact ul, .info-contact li {
+        display: block;
+    }
+
+        /* Change About Me text */
+        .info-about p {
+            font-size: 100%;
+            line-height: 1;
+        }
+}
+  
+  /* Behavior at 768px or smaller */
+@media screen and (max-width: 768px) {
+
+    /* Decrease link size */
+    .links ul, .links li {
+        display: inline;
+        font-size: 100%;
+        margin-right: 5px;
+    }
+
+    /* Change left header behavior */
+    .info-about h2,
+    .info-work h2,
+    .info-contact h2,
+    footer h2 {
+        font-size: 150%;
+        margin: 0px 20px 0px 5px;
+        width: 100px;
+        min-width: 100px;
+    }
+
+    /* Change About Me text */
+    .info-about p {
+        font-size: 100%;
+        line-height: 1;
+        margin: 10px;
+        font-weight: normal;
+    }
+
+    /* Change footer text */
+    footer p {
+        font-size: 150%;
+    }
+  }

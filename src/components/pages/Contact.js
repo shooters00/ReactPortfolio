@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import '../../styles/Portfolio.css';
-
+import React, { useState } from 'react';
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../../utils/helpers';
+import '../../App.css';
+//require('../../App.css');
 
 function Form() {
   // Create state variables for the fields in the form

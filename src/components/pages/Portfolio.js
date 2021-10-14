@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
-import '../../styles/Portfolio.css';
+import '../../App.css';
 import PortfolioCard from './PortfolioCard';
+import img1 from '../../assets/images/Lightbulb.png';
+//require('../../App.css');
 
 export default function Portfolio(props) {
   useEffect(() => {
@@ -11,42 +13,42 @@ export default function Portfolio(props) {
     title: "Light Bulb",
     repo: "www.google.com",
     app: "https://desolate-harbor-35577.herokuapp.com/",
-    img: "assets/images/Lightbulb.png",
+    img: img1,
     alt: "Light Bulb"
   },
   {
     title: "Light Bulb",
     repo: "www.google.com",
     app: "https://desolate-harbor-35577.herokuapp.com/",
-    img: "assets/images/Lightbulb.png",
+    img: "/assets/images/Lightbulb.png",
     alt: "Light Bulb"
   },
   {
     title: "Light Bulb",
     repo: "www.google.com",
     app: "https://desolate-harbor-35577.herokuapp.com/",
-    img: "assets/images/Lightbulb.png",
+    img: "/assets/images/Lightbulb.png",
     alt: "Light Bulb"
   },
   {
     title: "Light Bulb",
     repo: "www.google.com",
     app: "https://desolate-harbor-35577.herokuapp.com/",
-    img: "assets/images/Lightbulb.png",
+    img: "/assets/images/Lightbulb.png",
     alt: "Light Bulb"
   },
   {
     title: "Light Bulb",
     repo: "www.google.com",
     app: "https://desolate-harbor-35577.herokuapp.com/",
-    img: "assets/images/Lightbulb.png",
+    img: "/assets/images/Lightbulb.png",
     alt: "Light Bulb"
   },
   {
     title: "Light Bulb",
     repo: "www.google.com",
     app: "https://desolate-harbor-35577.herokuapp.com/",
-    img: "assets/images/Lightbulb.png",
+    img: "/assets/images/Lightbulb.png",
     alt: "Light Bulb"
   },
   

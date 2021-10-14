@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
-import '../../styles/Portfolio.css';
+import '../../App.css';
+//require('../../App.css');
 
 export default function PortfolioCard(props) {
   useEffect(() => {
@@ -7,10 +8,14 @@ export default function PortfolioCard(props) {
   });
   return (
     <div className="card">
-        <div class="card-header">
+        <div key={props.title} className="card-header">
             <h3>{props.title}</h3>
-            <a href={props.repo}>Github Link</a>
-            <a href={props.app}>App Link</a>
+            <div className="row">
+              <div className="col">
+                <h4><a href={props.repo}>Github Link</a></h4>
+                <h4><a href={props.app}>App Link</a></h4>
+              </div>
+            </div>
             <a href={props.app} target="_blank">
                 <img src={props.img} alt={props.alt} />
             </a>

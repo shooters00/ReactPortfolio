@@ -2,12 +2,15 @@ import React, { useState } from "react";
 import Header from "./Header";
 import Nav from "./Nav";
 import Footer from "./Footer";
-import "../styles/Portfolio.css";
+import '../App.css';
 
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
+
+//require('../App.css');
+
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.41a60c95.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.1f928f24.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.1f928f24.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.0057171a.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.0057171a.js.map",
+    "static/css/2.f2512455.chunk.css": "/ReactPortfolio/static/css/2.f2512455.chunk.css",
+    "static/js/2.0900a8d8.chunk.js": "/ReactPortfolio/static/js/2.0900a8d8.chunk.js",
+    "static/js/2.0900a8d8.chunk.js.map": "/ReactPortfolio/static/js/2.0900a8d8.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/ReactPortfolio/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.41a60c95.chunk.css.map": "/ReactPortfolio/static/css/main.41a60c95.chunk.css.map",
+    "static/js/2.0900a8d8.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.0900a8d8.chunk.js.LICENSE.txt",
+    "static/media/Lightbulb.bf5454e8.png": "/ReactPortfolio/static/media/Lightbulb.bf5454e8.png",
+    "static/media/headshot.f9ba16d9.jpg": "/ReactPortfolio/static/media/headshot.f9ba16d9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0057171a.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.0900a8d8.chunk.js",
+    "static/css/main.41a60c95.chunk.css",
+    "static/js/main.1f928f24.chunk.js"
+  ]
+}

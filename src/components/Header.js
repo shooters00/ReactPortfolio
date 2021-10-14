@@ -1,6 +1,9 @@
 import React from 'react';
-import '../styles/Header.css';
-import headshot from '../images/headshot.jpg';
+import '../App.css';
+import headshot from '../assets/images/headshot.jpg';
+//const headshot = "/assets/images/headshot.jpg";
+//require('../App.css');
+
 
 export default function Header() {
 
