@@ -39,7 +39,7 @@ export default function PortfolioContainer() {
           <div className="row">
             <Header />
           </div>
-          <div className="row">
+          <div className="">
             {/* We are passing the currentPage from state and the function to update it */}
             <Nav
               currentPage={currentPage}

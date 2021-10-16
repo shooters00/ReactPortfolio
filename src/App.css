@@ -4,9 +4,16 @@ body {
     margin: 15px;
 }
 
+.back-pic {
+    background-image: url("/src/assets/images/mountain.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .ed {
     text-align: center;
     margin: 20px;
+    max-width: 400px;
 }
 
 .banner {
@@ -16,6 +23,7 @@ body {
 .name {
     margin-top: 200px;
     text-align: center;
+    background-color: rgb(179, 169, 169);
 }
 
 .welcome {
@@ -25,6 +33,13 @@ body {
 
 .nav {
     margin: 15px;
+    color:rgba(8, 9, 119, 0.904);
+    font-size: 110%;
+}
+
+
+.nav-fill {
+    background-color: rgb(225, 236, 188);
 }
 
 .contactArea {
