@@ -55,8 +55,9 @@ export default function Portfolio(props) {
         <h1>Portfolio</h1>
       </div>
       <div className="row">
-        <div className="">
+        <div className="row">
           {portfolioItems.map((project) => (
+            <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="projects">
               <PortfolioCard
                 title={project.title}
@@ -65,6 +66,7 @@ export default function Portfolio(props) {
                 img={project.img}
                 alt={project.alt}
               ></PortfolioCard>
+            </div>
             </div>
           ))}
         </div>
