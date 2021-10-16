@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from '../../utils/helpers';
-import '../../App.css';
+//import '../../App.css';
 //require('../../App.css');
 
 function Form() {
@@ -48,9 +48,10 @@ function Form() {
   };
 
   return (
-    <div>
-      <p>Hello {name}</p>
-      <form className="form">
+    <div className="contactArea">
+      <h1>Contact</h1>
+      <p className="greeting">Hello {name}, thanks for contacting me.  Enter your information and message below.</p>
+      <form className="row form">
         <input
           value={email}
           name="email"

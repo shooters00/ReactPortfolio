@@ -1,5 +1,64 @@
 body {
     color:rgba(8, 9, 119, 0.904);
+    font-size: 110%;
+    margin: 15px;
+}
+
+.ed {
+    text-align: center;
+    margin: 20px;
+}
+
+.banner {
+    margin-top: 50px;
+}
+
+.name {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.welcome {
+    margin: 50px;
+    text-align: center;
+}
+
+.nav {
+    margin: 15px;
+}
+
+.contactArea {
+    margin: 30px;
+}
+
+.greeting {
+    font-size: 125%;
+}
+
+.form {
+    border:1px solid black;
+}
+
+.project {
+    margin: 20px;
+}
+
+.card {
+    
+}
+
+.projectImage {
+
+}
+
+.resume {
+    margin: 15px;
+    font-size: 125%;
+}
+
+.skills {
+    margin: 15px;
+    font-size: 110%
 }
 
 footer {

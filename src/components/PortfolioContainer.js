@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "./Header";
 import Nav from "./Nav";
 import Footer from "./Footer";
-import '../App.css';
+//import '../App.css';
 
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -10,7 +10,6 @@ import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 //require('../App.css');
-
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -36,23 +35,25 @@ export default function PortfolioContainer() {
   return (
     <div className="container-fluid">
       <div className="row">
-            <div className="col">
-              <Header />
-            </div>
-            <div className="col">
-              {/* We are passing the currentPage from state and the function to update it */}
-              <Nav
-                currentPage={currentPage}
-                handlePageChange={handlePageChange}
-              />
-            </div>
-        <div className="row">
-          {/* Here we are calling the renderPage method which will return a component  */}
-          {renderPage()}
+        <div className="col">
+          <div className="row">
+            <Header />
+          </div>
+          <div className="row">
+            {/* We are passing the currentPage from state and the function to update it */}
+            <Nav
+              currentPage={currentPage}
+              handlePageChange={handlePageChange}
+            />
+          </div>
         </div>
-        <div className="row">
-          <Footer />
-        </div>
+      </div>
+      <div className="">
+        {/* Here we are calling the renderPage method which will return a component  */}
+        {renderPage()}
+      </div>
+      <div className="row">
+        <Footer />
       </div>
     </div>
   );

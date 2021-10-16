@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import '../../App.css';
+//import '../../App.css';
 //require('../../App.css');
 
 export default function Resume(props) {
@@ -9,10 +9,16 @@ export default function Resume(props) {
   return (
     <div>
       <h1>Resume</h1>
-      <a href="./assets/files/2021 - Edward Fatula Resume Class.pdf" target="_blank">Resume</a>
-      <p>
-        Skills: 
-      </p>
+      <a className="resume" href="./assets/files/2021 - Edward Fatula Resume Class.pdf" target="_blank">Downloadable Resume</a>
+      <ol className="row skills"> Top Proficiencies:
+        <li className=""> Javascript </li>
+        <li> React </li>
+        <li> Node </li>
+        <li className="col"> Mongo </li>
+        <li> Express </li>
+        <li> Html/CSS/Bootstrap </li>
+        <li> SQL </li>
+      </ol>
     </div>
   );
 }

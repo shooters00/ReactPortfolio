@@ -1,0 +1,13 @@
+body {
+    color:rgba(8, 9, 119, 0.904);
+    background-Color: green;
+}
+
+footer {
+    margin: 50px 0px;
+}
+
+.footIcons {
+    margin: 15px;
+    size: 150%;
+}

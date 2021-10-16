@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import '../../App.css';
+//import '../../styles/About.css';
 //require('../../App.css');
 
 export default function About(props) {
