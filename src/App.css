@@ -37,6 +37,11 @@ body {
     font-size: 110%;
 }
 
+.active {
+    color: #e0e3ee !important;
+    background-color:rgba(6, 116, 241, 0.904) !important;
+  }
+
 
 .nav-fill {
     background-color: rgb(225, 236, 188);
@@ -87,4 +92,8 @@ ul {
 
 footer {
     margin: 50px 0px;
+}
+
+.footIcons {
+    color:rgba(6, 116, 241, 0.904)
 }
