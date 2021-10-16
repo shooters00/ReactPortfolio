@@ -66,14 +66,23 @@ body {
 
 }
 
+.resumeParent {
+    text-align: center;
+}
+
 .resume {
-    margin: 15px;
+    margin-top: 15px;
     font-size: 125%;
 }
 
 .skills {
-    margin: 15px;
+    margin-top: 15px;
     font-size: 110%
+}
+
+ul {
+    list-style-type: none;
+    
 }
 
 footer {
