@@ -5,6 +5,8 @@
 ## Description
 This page provides a way to share the projects that I have worked on and collaborate on projects.
 
+![ReactPortfolio2](https://user-images.githubusercontent.com/80861572/137632826-5bc1bbc4-a780-4380-989d-03b10030e583.png)
+
 #### Table of Contents
 1. [Installation](#installation)
 2. [Usage](#usage)
