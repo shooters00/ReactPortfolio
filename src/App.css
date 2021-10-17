@@ -59,6 +59,10 @@ body {
     border:1px solid black;
 }
 
+.message {
+    border:2px solid black;
+}
+
 .project {
     margin: 20px;
 }

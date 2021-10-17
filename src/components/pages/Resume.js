@@ -8,7 +8,7 @@ export default function Resume(props) {
   });
   return (
     <div className="row resumeParent">
-      <h1>Resume</h1>
+      <h2>Resume</h2>
       <a className="resume" href="./assets/files/2021 - Edward Fatula Resume Class.pdf" target="_blank">Downloadable Resume</a>
       <ul className="skills">Top Proficiencies:
         <li className="">Javascript</li>

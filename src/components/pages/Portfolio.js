@@ -52,7 +52,7 @@ export default function Portfolio(props) {
   return (
     <div className="">
       <div className="row">
-        <h1>Portfolio</h1>
+        <h2>Portfolio</h2>
       </div>
       <div className="row">
         <div className="row">

@@ -49,7 +49,7 @@ function Form() {
 
   return (
     <div className="contactArea">
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <p className="greeting">Hello {name}, thanks for contacting me.  Enter your information and message below.</p>
       <form className="row form">
         <input
@@ -66,7 +66,7 @@ function Form() {
           type="text"
           placeholder="name"
         />
-        <input
+        <input className="message"
           value={message}
           name="message"
           onChange={handleInputChange}
