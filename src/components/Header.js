@@ -13,7 +13,7 @@ const headStyle = {
 
 export default function Header() {
   return (
-    <div className="row back-pic">
+    <div className="back-pic">
       <img className="ed col" src={headshot} alt="Page author"></img>
       <div className="banner col">
       <h1 className="name col">Edward Fatula</h1>
