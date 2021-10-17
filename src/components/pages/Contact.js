@@ -28,6 +28,10 @@ function Form() {
     }
   };
 
+  const onBlurWarn = (e) => {
+    alert("This is a required field.")
+  };
+
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
@@ -58,6 +62,7 @@ function Form() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          onBlur={onBlurWarn}
         />
         <input
           value={name}
@@ -65,6 +70,7 @@ function Form() {
           onChange={handleInputChange}
           type="text"
           placeholder="name"
+          onBlur={onBlurWarn}
         />
         <input className="message"
           value={message}
@@ -72,6 +78,7 @@ function Form() {
           onChange={handleInputChange}
           type="message"
           placeholder="message"
+          onBlur={onBlurWarn}
         />
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
